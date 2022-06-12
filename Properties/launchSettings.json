@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "grpc-pharmacy": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5259;https://localhost:7107",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

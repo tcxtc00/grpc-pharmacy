@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "HelloGrpc";
+
+package HelloProto;
+
+// A Service to Fetch UserInformation.
+service Medicine {
+  // Gets medicine from the pharmacy / bckend
+  rpc GetMedicine (MedicineRequest) returns (stream MedicineResponse);
+}
+
+// The request message containing the data for the medicine.
+message MedicineRequest {
+  string name = 1;
+  int32 quantity = 2;
+}
+
+// The response message containing the medicine.
+message MedicineResponse {
+  string name = 1;
+  int32 quantity = 2;
+  int32 supplies = 3;
+  string errorMsg = 4;
+}

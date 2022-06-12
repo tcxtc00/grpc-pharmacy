@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wYA6y7Bm4o7omIg6d/91p/rpaC1SzEypmkvY23oNhOI=",
+  "Source": "grpc-pharmacy",
+  "BasePath": "_content/grpc-pharmacy",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
